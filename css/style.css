@@ -46,6 +46,18 @@ a {
     height: 460px;
     object-position: 0px -130px;
     border-radius: 10px;
+    filter: brightness(80%);
+}
+#caption {
+    color: white;
+    width: 50%;
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+}
+#caption h2 {
+    font-size: 26px;
+    font-weight: 500;
 }
 .sfumatura {
     background-color: rgba(0, 0, 0, 0.2);
@@ -91,13 +103,11 @@ a {
     width: 20%;
     float: left;
     /* debug */
-    /* background-color: #abcfe7; */
-    /* height: 350px; */
+    background-color: #abcfe7;
+    height: 350px;
 }
-.col img {
-    width: 100%;
-    border-radius: 10px;
-}
+
+
 #main-content{
     float: left;
     width: 56%;
