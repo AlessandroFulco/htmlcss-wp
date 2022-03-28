@@ -79,10 +79,13 @@ a {
     clear: both;
 }
 #leadership {
-    margin-bottom: 20px;
-    /* debug */
-    background-color: #abcfe7;
-    height: 100px;
+    margin-bottom: 30px;
+}
+#leadership h1 {
+    font-size: 40px;
+}
+#leadership span {
+    color: #999;
 }
 .col {
     width: 20%;
