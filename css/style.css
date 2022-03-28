@@ -56,6 +56,16 @@ a {
     left: 0;
     border-radius: 10px;
 }
+.sfumatura div {
+    position: absolute;
+    width: 50%;
+    padding-left: 40px;
+    bottom: 70px;
+    color: #fff;
+}
+.sfumatura div h2 {
+    font-weight: 500;
+}
 /* end prima sezione */
 /* seconda sezione */
 #info {
