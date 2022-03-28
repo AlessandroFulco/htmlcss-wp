@@ -1,0 +1,91 @@
+/* regole generali pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+/* end regole generali */
+/* stile header */
+header img {
+    width: auto;
+    height: 70px;
+    padding-right: 20px;
+    border-right: 1px solid rgb(196, 196, 196);
+}
+header nav {
+    display: block;
+    height: 90px;
+    line-height: 90px;
+    vertical-align: middle;
+}
+header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: #999;
+    padding: 10px 3px;
+}
+/* end stile header */
+/* stile main */
+/* prima sezione */
+#label {
+    margin-bottom: 30px;
+}
+#banner {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 460px;
+    object-position: 0px -130px;
+}
+/* end prima sezione */
+/* seconda sezione */
+#info {
+    padding-bottom: 20px;
+    /* debug */
+    background-color: #0086ff;
+}
+#info::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#leadership {
+    margin-bottom: 20px;
+    /* debug */
+    background-color: #abcfe7;
+    height: 100px;
+}
+.col {
+    width: 20%;
+    float: left;
+    /* debug */
+    background-color: #abcfe7;
+    height: 350px;
+}
+#main-content{
+    float: left;
+    width: 56%;
+    margin: 0 2%;
+    /* debug */
+    background-color: #abcfe7;
+    height: 350px;
+}
+/* end seconda sezione */
+/* end stile main */
+/* stile footer */
+footer {
+    margin-top: 10px;
+    /* debug */
+    background-color: #8801fe;
+    height: 50px;
+}
+/* end footer */
